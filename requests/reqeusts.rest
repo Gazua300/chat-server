@@ -1,0 +1,26 @@
+GET http://localhost:3003/
+
+###
+
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+    "name": "Flamarion",
+    "whatsapp": 71988500067,
+    "email": "mesmo245@gmail.com",
+    "password": "123456",
+    "message": "olá",
+    "genre": "hetero",
+    "music": "rock",
+    "sports": "boxe"
+}
+
+###
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{
+    "email": "mesmo245@gmail.com",
+    "password": "123456"
+}
